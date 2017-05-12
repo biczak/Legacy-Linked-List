@@ -38,7 +38,7 @@ angular.module('app',[
     }
 
     $scope.handleDashboardClick = function() {
-      $location.path('dashboard');
+      $location.path('googleDashboard');
     }
 
     $scope.handleInputClick = function() {
