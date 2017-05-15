@@ -16,7 +16,7 @@ var Job = require('../db/models/job.js');
 var LocalStrategy = require('passport-local').Strategy;
 
 const rp = require('request-promise');
-const config = require('../config/config.js');
+// const config = require('../config/config.js');
 var google = require('googleapis');
 var googleAuth = require('google-auth-library');
 module.exports = function(app, express) {
