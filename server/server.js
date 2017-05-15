@@ -4,7 +4,7 @@ var morgan = require('morgan');
 var request = require('request');
 var config = require('./config/config');
 // auth dependencies
-var config = require('./config/config');
+var dotenv = require('dotenv');
 var cookieParser = require('cookie-parser');
 var expressSession = require('express-session');
 var mongoose = require('mongoose');

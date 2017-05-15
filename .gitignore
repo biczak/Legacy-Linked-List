@@ -7,7 +7,7 @@ client/lib/
 client/dist/
 .DS_Store
 server/config/
-
+server/.env
 # Icon must ends with two \r.
 Icon
 
